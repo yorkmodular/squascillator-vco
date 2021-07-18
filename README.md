@@ -13,3 +13,5 @@ Square waves aren't as boring as they seem - with a bit of judicious filtering (
 There are no special build requirements - the parts count is actually quite low. There are a pair of surface-mount Schmitt trigger inverters but these are pre-soldered.
 
 Both pots should be linear taper - pretty much any value will work fine (I recommend 10k or 20k). 50k is a good value for the fine-tune trimmer.
+
+The Squascillator and the XO106r5 share the same firmware.
