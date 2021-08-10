@@ -2,7 +2,7 @@
 
 A square-wave oscillator with voltage-controlled duty cycle - this one is built around a microcontroller, rather than an analogue, core so far fewer components are required to get things up and running and it's far less hassle to calibrate; there's a fine-tune trimmer on the board but most of the heavy-lifting is done by the firmware.
 
-Note the two CV inputs - one has an attenuator (CV1) whilst the other hasn't.  Inputs from the two are mixed, and the CV2 input is pulled to ground by default.
+Note the two CV inputs - one has an attenuator (CV1) whilst the other hasn't.  Inputs from the two are mixed and the CV2 input is floating by default. If you'd prefer to have it pulled to ground, just put a blob of solder across the jumper on the backside of the PCB.
 
 Like my other AVR-based VCOs, this one will track 1V/oct pretty well over 5 octaves, although if you're expecting 'to-the-cent' accuracy then you may well be disappointed unless you're prepared to hack on the firmware (specifically, fine-tune the values in the pitch lookup table - have fun!)
 
